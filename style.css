@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 .divider {
-    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .js {
@@ -19,6 +19,7 @@
 
 .menu {
     font-weight: 800;
+    padding-bottom: 10px;
 }
 
 * {
@@ -59,11 +60,19 @@ div > div {
 }
 
 ul {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1em auto;
+    width: fit-content;
+    list-style: none;
 }
 
 li {
     text-align: start;
+}
+
+.icons li {
+    display: inline-block;
+}
+
+.icons li:not(:last-child) {
+    margin-right: 10px;
 }
