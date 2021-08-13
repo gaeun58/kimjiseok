@@ -1,0 +1,17 @@
+.main h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+
+.main .picture {
+    border-style: double;
+    width: 350px;  height: 450px;
+    display: block;
+    margin: auto;
+}
+
+.main .picture img {
+    width: 350px;
+    height: 450px;
+}
