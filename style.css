@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.divider {
+    border-top: 1px solid grey;
+}
+
+.js {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+.menu {
+    font-weight: 800;
+}
+
+* {
+    font-family: 'Pretendard-Regular';
+    text-align: center;
+}
+
+table td {
+    border: 1px solid grey;
+    padding: 0.2em;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px; background-color: floralwhite;
+    
+}
+
+.tr {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+div > div {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.picture {
+    border-style: double;
+    width: 350px;  height: 450px;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    text-align: start;
+}
